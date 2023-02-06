@@ -1,0 +1,41 @@
+
+
+
+#shrekimg{
+    width: 1300px;
+    height: 1300px;
+    position:auto ;
+    right: 0px;
+    top: 40em;
+    border: #e6e6e6 solid 3px ;
+}
+
+
+
+body{
+    background-color: rgb(37, 56, 8);
+}
+h1{ 
+    text-align: center; 
+    text-transform:  20px ;
+    color: rgb(14, 43, 12) ;
+    
+}
+
+/*TEXT GLOW  */
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;}
+  
+  @-webkit-keyframes glow {
+     from {
+      text-shadow: 0 0 10px #9be97a, 0 0 20px #24d074, 0 0 30px #269aba,
+        0 0 40px #3f9330, 0 0 50px #5ac65a, 0 0 60px #45c95b, 0 0 70px #2d90db;
+    }
+    to {
+       text-shadow: 0 0 20px #6b9e31, 0 0 30px #336eb7, 0 0 40px #3be4bf,
+       0 0 50px #113c17, 0 0 60px #183c1d, 0 0 70px #302b5c, 0 0 80px #302b5c;
+    }
+    }
